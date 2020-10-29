@@ -1,0 +1,34 @@
+.logo {
+    font-size: 40px;
+}
+.navbar {
+    color: #fff;
+}
+
+.heading {
+    font: 80px Montserrat, Arial, sans-serif;
+}
+a.noUnderline {
+    text-decoration: none; 
+}
+#cranelad {
+    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+}
+#cranelad p {
+    font: 25px "Droid serif", Arial, sans-serif;
+}
+#cranelad .btn {
+    border: solid 1px #fff;
+    padding: 15px 15px;
+    width: auto;
+}
+#cranelad .container span {
+    font: 20px Montserrat, Arial, sans-serif;
+}
+.fa {
+    color: #fff;
+    font-size: 30px;
+    padding: 14px;
+}
