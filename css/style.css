@@ -1,8 +1,13 @@
+body {
+    background-color: var(--light);
+    font-family: 'Poppins', sans-serif;
+}
 .logo {
     font-size: 40px;
 }
 .navbar {
-    color: #fff;
+    transition: top 0.3s;
+    font-size: 15px;
 }
 
 .heading {
@@ -27,8 +32,71 @@ a.noUnderline {
 #cranelad .container span {
     font: 20px Montserrat, Arial, sans-serif;
 }
-.fa {
+#cranelad .fa {
     color: #fff;
     font-size: 30px;
     padding: 14px;
+}
+#heading{
+    background-color: #0cb2f0;
+    height: 80vh;
+}
+.intro {
+    font-size: 50px;
+}
+.para {
+    font-size: 20px;
+}
+#brands {
+    color: #0cb2f0;
+    height: 100vh;
+}
+#expertise {
+    background-color: #0cb2f0;
+    color: #0cb2f0;
+    height: auto;
+}
+#works {
+    color: #0cb2f0;
+}
+.label {
+    font-size: 40px;
+}
+#works a {
+    color: #0cb2f0;
+}
+#contact {
+    color: #0cb2f0;
+    height: 90%;
+}
+#contact p {
+    font-size: 17px;
+}
+#contact input {
+    width: 30%;
+}
+#contact textarea {
+    width: 100%;
+}
+#contact button {
+    height: 60px;
+    width: 132px;
+    font-size: 20px;
+    background-color: #0cb2f0;
+    border: none;
+}
+#contact button:hover {
+    background-color: #69cef3;
+}
+footer {
+    background-color: #0cb2f0;
+    height: auto;
+}
+footer .fa {
+    color: var(--light);
+    font-size: 23px;
+}
+footer a , footer p{
+    color: var(--light);
+    font-size: 13px;
 }
