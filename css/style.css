@@ -100,3 +100,32 @@ footer a , footer p{
     color: var(--light);
     font-size: 13px;
 }
+#nav {
+    font-size: 13px;
+}
+#nav a {
+    color: var(--primary);
+}
+#somesha {
+    height: 100vh;
+}
+.button1 {
+    border-radius: 40px;
+}
+.empty-space {
+    height: 15vh;
+}
+section.learn {
+    background-color: #fff;
+}
+.dark-overlay {
+    background-color: rgba(147, 205, 231, 0.596);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 450px;
+}
+.inner {
+    padding-top:150px;
+}
