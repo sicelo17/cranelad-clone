@@ -129,3 +129,19 @@ section.learn {
 .inner {
     padding-top:150px;
 }
+section.contact-us p{
+    color: #4E83D4;
+}
+section.contact-us .dark-overlay{
+    min-height: 300px;
+}
+section.find-us .fa{
+    font-size: 25px;
+    color: #4E83D4;
+}
+section.find-us h2 {
+    font-size: 20px;
+}
+section.find-us .form-control {
+    width: 100%;
+}
