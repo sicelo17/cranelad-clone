@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 body {
     background-color: var(--light);
     font-family: 'Poppins', sans-serif;
@@ -56,7 +58,7 @@ a.noUnderline {
     color: #0cb2f0;
     height: auto;
 }
-#works {
+#works{
     color: #0cb2f0;
 }
 .label {
@@ -129,10 +131,10 @@ section.learn {
 .inner {
     padding-top:150px;
 }
-section.contact-us p{
+section.contact-us p, section.about-us p{
     color: #4E83D4;
 }
-section.contact-us .dark-overlay{
+section.contact-us .dark-overlay, section.about-us .dark-overlay{
     min-height: 300px;
 }
 section.find-us .fa{
@@ -144,4 +146,16 @@ section.find-us h2 {
 }
 section.find-us .form-control {
     width: 100%;
+}
+.blockquote p {
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: #0cb2f0;
+}
+section.works {
+    background-color: #4E83D4;
+    height: 100vh;
+}
+section.somesha .pic {
+    background-image: url(");
 }
