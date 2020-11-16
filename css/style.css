@@ -134,7 +134,7 @@ section.learn {
 .inner {
     padding-top:150px;
 }
-section.contact-us p, section.about-us p{
+section.contact-us p, section.about-us p, section.solutions p{
     color: #4E83D4;
 }
 section.contact-us .dark-overlay, section.about-us .dark-overlay{
@@ -181,6 +181,29 @@ section.talk p , section.demo p{
     color: #4E83d4;
     font-size: 20px;
 }
-section.demo i{
+section.demo i, section.features p{
     color: #4E83D4;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown-menu {
+    font-size: 13px;
+}
+section.solutions {
+    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://somesha.io/wp-content/uploads/2017/12/screenshot-abc.cranelad.com-2017-12-07-00-28-501.png");
+}
+section.solutions .dark-overlay {
+    background-color: rgba(20, 20, 20, 0.979);
+    opacity: 0.9;
+    height: auto;
+    position: relative;
+}
+section.solutions .col-md-4 {
+    background:rgb(75, 74, 74)
 }
