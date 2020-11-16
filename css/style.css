@@ -177,3 +177,7 @@ section.somesha img {
 section.talk {
     background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://somesha.io/wp-content/uploads/2019/08/sCHOOL-bUS.jpg");
 }
+section.talk p , section.demo p{
+    color: #4E83d4;
+    font-size: 20px;
+}
