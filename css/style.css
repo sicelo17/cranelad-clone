@@ -181,3 +181,6 @@ section.talk p , section.demo p{
     color: #4E83d4;
     font-size: 20px;
 }
+section.demo i{
+    color: #4E83D4;
+}
