@@ -121,12 +121,15 @@ section.learn {
     background-color: #fff;
 }
 .dark-overlay {
-    background-color: rgba(147, 205, 231, 0.596);
+    background-color: rgba(0, 0, 0, 0.596);
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 450px;
+    height: 300px;
+    opacity: 0.8;
+    overflow: hidden;
+    border-radius: inherit;
 }
 .inner {
     padding-top:150px;
@@ -147,15 +150,30 @@ section.find-us h2 {
 section.find-us .form-control {
     width: 100%;
 }
+section.about-us {
+    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://somesha.io/wp-content/uploads/2019/07/Chairs-and-desks.jpg");
+}
 .blockquote p {
     font-size: 30px;
     font-family: 'Courgette', cursive;
     color: #0cb2f0;
 }
+section.som-contact {
+    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://somesha.io/wp-content/uploads/2019/07/Chairs-and-desks.jpg");
+}
 section.works {
     background-color: #4E83D4;
-    height: 100vh;
+    min-height: 100vh;
 }
-section.somesha .pic {
-    background-image: url(");
+section.somesha{
+    background-color: #4E83D4;
+}
+section.somesha img {
+    min-height: 700px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+section.talk {
+    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://somesha.io/wp-content/uploads/2019/08/sCHOOL-bUS.jpg");
 }
