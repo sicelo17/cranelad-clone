@@ -165,7 +165,7 @@ section.works {
     background-color: #4E83D4;
     min-height: 100vh;
 }
-section.somesha{
+section.somesha, section.administration .col-md-5{
     background-color: #4E83D4;
 }
 section.somesha img {
@@ -206,4 +206,10 @@ section.solutions .dark-overlay {
 }
 section.solutions .col-md-4 {
     background:rgb(75, 74, 74)
+}
+section.tools .col-md-4 {
+    background-color: #0cb2f0;
+}
+section.tools .col-md-4 i, section.administration i {
+    font-size: 40px;
 }
