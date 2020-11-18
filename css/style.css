@@ -64,7 +64,7 @@ a.noUnderline {
 .label {
     font-size: 40px;
 }
-#works a {
+#works a{
     color: #0cb2f0;
 }
 #contact {
@@ -212,4 +212,25 @@ section.tools .col-md-4 {
 }
 section.tools .col-md-4 i, section.administration i {
     font-size: 40px;
+}
+section.careers {
+    background-image: url("https://cranelad.tech/wp-content/uploads/2017/12/OnboardYourTeam-011.jpg");
+    height: 450px;
+}
+section.careers .dark-overlay {
+    height: 450px;
+}
+section.talent button {
+    background-color: #0cb2f0;
+}
+section.talent button:hover {
+    background-color: #69cef3;
+}
+section.talent p{
+    color: #0cb2f0;
+    font-size: 150%;
+}
+section.talent h2 {
+    font-size: 40px;
+    color: #0cb2f0;
 }
